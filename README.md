@@ -8,6 +8,12 @@ https://floating-bastion-80654.herokuapp.com/
 3. For Apartments that for sale, the purchaser need to set the rental price per annum at the time of purchasing.
 4. For Apartments that for rent, the tenant just click to confirm and pay the 1-year rent.
 
+### Directory structure
+- `client`: Project's frontend.
+- `contracts`: Smart contracts that are deployed in the Ropsten testnet.
+- `migrations`: Migration files for deploying contracts in contracts directory.
+- `test`: Tests for smart contracts.
+
 
 ## How to run this project 
 
