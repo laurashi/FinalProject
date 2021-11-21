@@ -97,7 +97,7 @@ contract ApartmentMarket is Ownable {
     function addHouse(string memory _name, uint _sellprice) 
     public onlyOwner 
     returns (bool) {
-    /// 1. Create a new House and put in array
+    /// @dev 1. Create a new House and put in array
     Houses[skuCount] = House({
     name: _name, 
     sku: skuCount, 
@@ -108,11 +108,11 @@ contract ApartmentMarket is Ownable {
     houseowner: payable(address(0)),
     renter: payable(address(0))
     });
-    /// 2. Increment the skuCount by one
+    /// @dev 2. Increment the skuCount by one
     skuCount = skuCount + 1;
-    /// 3. Update the existing sku's status as for sale
+    /// @dev 3. Update the existing sku's status as for sale
     emit LogForSale(skuCount - 1);
-    /// 4. return true
+    /// @dev 4. return true
     return true;
     }
 
