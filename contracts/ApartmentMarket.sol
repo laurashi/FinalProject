@@ -93,11 +93,11 @@ contract ApartmentMarket is Ownable {
         /// @dev Initialize the sku count to 0. 
         skuCount = 0;
     }
-    /// @dev here you can set isOnwer modifier to allow only the contract owner to add apartment to the contract, if necessary
+    /// @dev withonlyOwner, only the contract owner can add apartments to the contract.
     function addHouse(string memory _name, uint _sellprice) 
     public onlyOwner 
     returns (bool) {
-    // 1. Create a new House and put in array
+    /// 1. Create a new House and put in array
     Houses[skuCount] = House({
     name: _name, 
     sku: skuCount, 
@@ -108,11 +108,11 @@ contract ApartmentMarket is Ownable {
     houseowner: payable(address(0)),
     renter: payable(address(0))
     });
-    // 2. Increment the skuCount by one
+    /// 2. Increment the skuCount by one
     skuCount = skuCount + 1;
-    // 3. Emit the appropriate event
+    /// 3. Update the existing sku's status as for sale
     emit LogForSale(skuCount - 1);
-    // 4. return true
+    /// 4. return true
     return true;
     }
 
