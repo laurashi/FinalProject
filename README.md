@@ -30,7 +30,7 @@ https://floating-bastion-80654.herokuapp.com/
 - `$ truffle console`
 
 ### Deploy to the Testnet
-You can either follow the Zeppelin Solutions walkthrough or the class walkthrough on Tutorial: Proof of Existence. Here I use Remix as its interface is more friendly to beginners and contract owners can easily set up and update apartments.
+You can either follow the Zeppelin Solutions walkthrough or the class walkthrough on Tutorial: Proof of Existence. Here I use Remix as 1) its interface is more friendly to beginners; 2) contract owners can easily set up and update apartments; and 3) you do not need to worry about sensitive information leaks like MetaMask mnemonics or private keys.
 	
 1) First you need to have a MetaMask account with some ETH on Ropsten Testnet, and choose Ropsten Testnest in MetaMask.
 2) Open ApartmentMarket.sol at remix.ethereum.org and compile to get the ABI.
