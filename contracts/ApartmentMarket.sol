@@ -93,7 +93,7 @@ contract ApartmentMarket is Ownable {
         /// @dev Initialize the sku count to 0. 
         skuCount = 0;
     }
-    /// @dev withonlyOwner, only the contract owner can add apartments to the contract.
+    /// @dev with onlyOwner, only the contract owner can add apartments to the contract.
     function addHouse(string memory _name, uint _sellprice) 
     public onlyOwner 
     returns (bool) {
