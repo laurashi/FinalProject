@@ -6,7 +6,7 @@ https://floating-bastion-80654.herokuapp.com/
 
 ## How to run this project 
 
-### Setting up the Environment
+### Set up the Environment
 - Node.js v16 : `$ nvm install 16`
 - Truffle : `npm install -g truffle`
 - Ganache - Development Blockchain environment : `$ npm install -g ganache-cli`
