@@ -1,8 +1,13 @@
-# Final project - Apartment Marketplace
+# Final Project - Apartment Marketplace
 
-
+## Project Description
 ### Frontend: 
 https://floating-bastion-80654.herokuapp.com/
+1. Apartment owners could contact the contract owner to have their apartments listed in the marketplace for sale and for rent. 
+2. Anyone interested could visit the website, connect its wallet with the webpage and check the latest status of each apartments (now there are three apartments available).
+3. For Apartments that for sale, the purchaser need to set the rental price per annum at the time of purchasing.
+4. For Apartments that for rent, the tenant just click to confirm and pay the 1-year rent.
+
 
 ## How to run this project 
 
@@ -36,9 +41,5 @@ https://youtu.be/6XzXhGQSXYI
 ## For NFT Certificate
 0xb41Ce26Ba057621D1dfddF410CBDe877D5BA9911
 
-## Project Description
-1. Apartment owners could contact the contract owner to have their apartments listed in the marketplace for sale and for rent. 
-2. Anyone interested could visit the website, connect its wallet with the webpage and check the latest status of each apartments (now there are three apartments available).
-3. For Apartments that for sale, the purchaser need to set the rental price per annum at the time of purchasing.
-4. For Apartments that for rent, the tenant just click to confirm and pay the 1-year rent.
+
 
